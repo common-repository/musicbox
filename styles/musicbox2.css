@@ -1,0 +1,40 @@
+
+.musicbox .tracks.notracks{
+    font-size:12px;
+
+}
+.musicbox .titlebar,
+.musicbox .tracks{
+
+}
+.musicbox .tracks ul li{ position:relative; line-height: 17px; border-bottom:1px solid #f1f1f1;min-height:50px;overflow:hidden;}
+.musicbox .tracks ul li .track-info{position:absolute;padding-left:55px; font-size:13.5px; }
+.musicbox .tracks ul li .track-thumb{ height:50px; width:50px; float:left;background-repeat: no-repeat;background-size: 100% 100%;margin:0px 3px 0px 0px;}
+.musicbox .tracks ul li .track-thumb a{display:block;height:50px;width:50px;}
+.musicbox .tracks ul li .player{ float:left; clear:both;}
+.musicbox .tracks ul li .name{ font-weight: bold;display:block; }
+.musicbox .tracks ul li .name a{text-decoration: none;}
+.musicbox .tracks ul li .collection{ font-style: italic; }
+.musicbox .tracks ul li{ margin: 2px 0px 2px 0px; padding:5px 0px 5px 0px;}
+.musicbox .tracks{     
+    background-color:#fff;
+}
+.musicbox .tracks ul{ list-style-type:none; padding:0px; margin:0px;}
+.musicbox label{ font-weight: bold; }
+.musicbox .titlebar .name a{
+    color:#0073aa;
+    text-decoration: none;
+    font-size:15px;
+    font-weight: bold;
+    display:block;
+    padding:5px 0px;
+    margin:5px 0px;
+}
+.musicbox .musicbox_pagination ul{
+    list-style-type:none;
+    margin:5px 0px 0px 0px;
+}
+.musicbox .musicbox_pagination{ font-size:13.5px;}
+.musicbox .musicbox_pagination ul li{ float:left; padding:2px; margin:0px 2px 0px 2px;}
+.musicbox .musicbox_pagination ul li a{ text-decoration: none; }
+.musicbox .musicbox_pagination ul li.current a{ text-decoration: none; color:#000;}
